@@ -1,14 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 typedef struct Node {
   struct Node* next;
   int id;
   char* name;
 
 } tNode;
+
 tNode *create_node(int new_id,char* new_name);
 void unshift(tNode **list, int new_id, char* new_name);
 void push(tNode **list, int new_id, char* new_name);
+
 int main() {
   tNode *list = create_node(0, "Pablo");
   unshift(&list, 1, "Marko");
@@ -20,9 +23,6 @@ int main() {
   }
   return 0;
 }
-
-
-
 
 tNode *create_node(int new_id,char* new_name){
   tNode* node = (tNode *)malloc(sizeof(tNode));
