@@ -3,11 +3,14 @@ Here i will write structures and algorithms, if you wont you can contribute this
 I will write in C, Rust and Python. 
 
 ## ToDo:
+- [ ] - Algorithms
+  - [ ] - Sorting
+    - [ ] - insertion sort
 - [ ] - Structures:
   - [ ] - Linked List
-    - [x] - C
-    - [ ] - Python
-    - [ ] - Rust
+    - [x] - Single
+    - [ ] - Double
+    - [ ] - Circular
   - [ ] - Stack
   - [ ] - Queues
   - [ ] - Hash Table
